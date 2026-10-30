@@ -1,0 +1,7 @@
+# Install with Python 3.10 or 3.11 on Ubuntu
+ultralytics>=8.0,<9
+opencv-python>=4.7,<5
+numpy>=1.23,<3
+# For collect.py only (optional):
+# cvzone>=1.5,<2
+# mediapipe

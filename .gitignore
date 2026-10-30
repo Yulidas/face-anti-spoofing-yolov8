@@ -1,0 +1,40 @@
+# Private images, labels, and known faces
+/dataset/
+/datasets/
+/Faces/
+/known_faces/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.bmp
+*.mp4
+*.avi
+*.mov
+
+# Model checkpoints, generated training output
+*.pth
+*.onnx
+*.ckpt
+*.engine
+/runs/
+/weights/
+/checkpoints/
+
+# Python and workstation files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+*.log
+
+# Locally generated detections
+/results/
+/output/
