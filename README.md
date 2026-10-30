@@ -260,3 +260,18 @@ No dataset images, real biometric measurements, independently verified benchmark
 **External tools and models:** [Ultralytics YOLO](https://github.com/ultralytics/ultralytics), [PyTorch](https://pytorch.org/), [OpenCV](https://opencv.org/), and [MiDaS by Intel ISL / @isl-org](https://github.com/isl-org/MiDaS). For MiDaS authorship, academic citations, and the MIT license, see **Third-party attribution — MiDaS** above. MiDaS source code and weights are **not authored by this project's developer** and are **not bundled in this repository**.
 
 Only use facial images for which appropriate permission and data-protection safeguards exist. This demonstration must not be treated as a production-ready identity-verification or access-control solution.
+
+## License
+
+This project is released under the GNU Affero General
+Public License v3.0 (AGPL-3.0).
+
+The original project code and experimental integration
+were developed as part of a Master's project at
+Université Paris-Est Créteil (UPEC), France, in 2023.
+
+Third-party components retain their respective licenses:
+- Ultralytics YOLOv8: AGPL-3.0
+- MiDaS (Intel ISL): MIT License
+
+See the LICENSE file and MiDaS/LICENSE for details.
